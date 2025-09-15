@@ -8,7 +8,13 @@
 
 ### Quick start
 ```bash
-python -m venv .venv && source .venv/bin/activate
+python -m venv .venv && source .venv/bin/activate # for Mac
+```
+```bash
+python -m venv .venv
+.venv\Scripts\activate #Windows CMD
+```
+```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
